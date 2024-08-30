@@ -1,0 +1,4 @@
+// 1.20.1	2024-08-29T23:52:48.6491447	BAAS/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+6d2953dc27fe851ac9aa1517a47efff5ac7222fe data\minecraft\tags\blocks\needs_iron_tool.json
+6d2953dc27fe851ac9aa1517a47efff5ac7222fe data\minecraft\tags\blocks\mineable\pickaxe.json

@@ -1,0 +1,9 @@
+// 1.20.1	2024-08-29T23:52:48.6481448	BAAS/Model Definitions
+237b211c50a140c1284cb9d870967564072afd94 assets\createbaas\models\block\tin_ore.json
+8f1031959772d82642e6c9fc231bb3f805ad72a0 assets\createbaas\blockstates\deepslate_tin_ore.json
+505f9b2b2fa839f09811211367ff147749ccf986 assets\createbaas\blockstates\tin_ore.json
+b155caa7db31aac297c78180aab01b1c6b825b55 assets\createbaas\models\item\raw_tin.json
+56e4400053017f0aa70a03b77d7342da31ef1511 assets\createbaas\models\item\tin_ore.json
+88227536167acb3dfcb0de2767e805f667e0a1c8 assets\createbaas\models\item\deepslate_tin_ore.json
+45488641dd979556da5515b3b3c0686112d6fd76 assets\createbaas\models\block\deepslate_tin_ore.json
+d3ed1137eca5729ed6a9da430c293812b01b93a0 assets\createbaas\models\item\tin_ingot.json

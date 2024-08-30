@@ -10,13 +10,14 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.serric.createbaas.CreateBAAS;
 
 public class ModBlocks {
     public static final Block TIN_ORE = registerBlock("tin_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).hardness(2.4f)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).hardness(2.4f), UniformIntProvider.create(2,5)));
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).hardness(4f)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).hardness(4f), UniformIntProvider.create(4,7)));
 
 
     private static Block registerBlock(String name, Block block) {
