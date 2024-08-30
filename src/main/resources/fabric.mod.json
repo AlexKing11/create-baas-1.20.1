@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "baas",
+	"version": "${version}",
+	"name": "BAAS",
+	"description": "Description pending",
+	"authors": [
+		"To be filled out"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.serric.baas.BAAS"
+		],
+		"client": [
+			"net.serric.baas.BAASClient"
+		],
+		"fabric-datagen": [
+			"net.serric.baas.BAASDataGenerator"
+		]
+	},
+	"mixins": [
+		"baas.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
