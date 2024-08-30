@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createbaas:block/tin_ore"
+    }
+  }
+}

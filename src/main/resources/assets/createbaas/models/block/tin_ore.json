@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "createbaas:block/tin_ore"
+  }
+}

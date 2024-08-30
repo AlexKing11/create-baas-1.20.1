@@ -1,8 +1,8 @@
-package net.serric.baas;
+package net.serric.createbaas;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class BAASClient implements ClientModInitializer {
+public class CreateBAASClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

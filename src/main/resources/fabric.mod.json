@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "baas",
+	"id": "createbaas",
 	"version": "${version}",
 	"name": "BAAS",
 	"description": "Description pending",
@@ -15,13 +15,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.serric.baas.BAAS"
+			"net.serric.createbaas.CreateBAAS"
 		],
 		"client": [
-			"net.serric.baas.BAASClient"
+			"net.serric.createbaas.CreateBAASClient"
 		],
 		"fabric-datagen": [
-			"net.serric.baas.BAASDataGenerator"
+			"net.serric.createbaas.CreateBAASDataGenerator"
 		]
 	},
 	"mixins": [

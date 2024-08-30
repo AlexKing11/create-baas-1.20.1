@@ -1,4 +1,4 @@
-package net.serric.baas.mixin;
+package net.serric.createbaas.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
