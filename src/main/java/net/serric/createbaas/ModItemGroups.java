@@ -19,7 +19,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.TIN_INGOT);
-
+                        entries.add(ModItems.CREATIVE_ACID_BUCKET);
                     }).build());
 
     public static void registerItemGroups() {

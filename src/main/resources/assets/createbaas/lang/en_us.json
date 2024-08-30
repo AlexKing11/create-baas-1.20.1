@@ -1,7 +1,15 @@
 {
   "itemgroup.baas_main": "Big Ass Armor Suit",
+
   "item.createbaas.raw_tin": "Raw Tin",
   "item.createbaas.tin_ingot": "Tin Ingot",
+
   "block.createbaas.tin_ore": "Tin Ore",
-  "block.createbaas.deepslate_tin_ore": "Deepslate Tin Ore"
+  "block.createbaas.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "item.createbaas.creative_acid_bucket": "Creative Acid Bucket",
+
+  "death.attack.acid": "%s melted",
+  "death.attack.acid.player": "%s melted whilst trying to escape %s"
+
 }
